@@ -8,8 +8,8 @@ elif infocmp xterm-256color >/dev/null 2>&1; then
 fi
 
 # enable virtualenvwrapper
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Devel
+export WORKON_HOME=/Users/gabriel.rosinol/code/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 source /usr/local/bin/virtualenvwrapper.sh
 
 # enable programmable completion features (you don't need to enable
